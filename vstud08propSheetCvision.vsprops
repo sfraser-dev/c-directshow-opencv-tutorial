@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="vstud08propSheetCvision"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="C:\DXSDK\samples\Multimedia\DirectShow\BaseClasses;C:\DXSDK\samples\Multimedia\Common\include;&quot;C:\Program Files\Intel\opencv\cv\include&quot;;&quot;C:\Program Files\Intel\opencv\otherlibs\highgui&quot;;&quot;$(WINSDKv71_DIR)Samples\multimedia\directshow\baseclasses&quot;;&quot;C:\Program Files\Microsoft SDKs\Windows\v7.1\Samples\multimedia\directshow\dmo\dmodemo&quot;;&quot;$(DXSDK_DIR)include\noWin8overlap&quot;;C:\opencv100\cv\include;C:\opencv100\cxcore\include;C:\opencv100\otherlibs\highgui;C:\opencv100\filters\ProxyTrans"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="strmbase.lib cv.lib cvaux.lib cvcam.lib cvhaartraining.lib cxcore.lib cxts.lib highgui.lib ml.lib"
+		AdditionalLibraryDirectories="C:\DXSDK\lib;&quot;C:\Program Files\Intel\opencv\lib&quot;;&quot;C:\Program Files\Windows Kits\8.1\Lib\winv6.3\um\x86&quot;;C:\opencv100\lib;C:\opencv100\bin"
+	/>
+</VisualStudioPropertySheet>
