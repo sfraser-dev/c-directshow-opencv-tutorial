@@ -280,7 +280,7 @@ std::vector<CString> enumFilters(IGraphBuilder *pGraph) {
 
 int main(void) {
 	//printf("hello, world\n");
-	std::cout << "hello, world ... press any key to start directshow processing" << std::endl;
+	std::cout << "hello, world ... press Enter to start directshow processing" << std::endl;
 	std::cin.get();
 	long evCode;
 	
